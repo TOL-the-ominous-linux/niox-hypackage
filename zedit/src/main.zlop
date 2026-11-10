@@ -1,5 +1,13 @@
 namespace ZEdit;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("zedit (Z#) - minimal editor");
+    puts("modes: command | insert (planned)");
+    puts("config: ~/.config/zedit/default.conf or package config/default.conf");
     return 0;
 }

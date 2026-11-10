@@ -1,5 +1,13 @@
 namespace ZInit;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("zinit (Z#) - service/init helper prototype");
+    puts("can parse service units and orchestrate startup (prototype)");
+    puts("example: service/example.service");
     return 0;
 }

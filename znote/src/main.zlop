@@ -1,5 +1,13 @@
 namespace ZNote;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("znote (Z#)");
+    puts("- quick note 1: Turls uses Z# for native-fast tools");
+    puts("- quick note 2: manage packages with turlz -I <name>");
     return 0;
 }

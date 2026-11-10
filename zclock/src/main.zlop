@@ -1,5 +1,17 @@
 namespace ZClock;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    let i: i32 = 0;
+    puts("zclock tick demo (Z#):");
+    while (i < 5) {
+        puts("tick");
+        i = i + 1;
+    }
+    puts("done");
     return 0;
 }

@@ -1,5 +1,17 @@
 namespace ZCore;
 
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
 fn version() -> i32 { return 1; }
 
-fn main() -> i32 { return 0; }
+fn banner() -> i32 {
+    puts("zcore v1 - shared Z# runtime helpers for niox hypackage");
+    return 0;
+}
+
+fn main() -> i32 {
+    banner();
+    return 0;
+}

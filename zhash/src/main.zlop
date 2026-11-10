@@ -1,5 +1,21 @@
 namespace ZHash;
 
-fn main() -> i32 {
-    return 0;
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn simple_mix(x: i32) -> i32 {
+    let v: i32 = x;
+    v = v * 31 + 7;
+    v = v * 17 + 3;
+    return v;
+}
+
+fn main() -> i32
+{
+    puts("zhash (Z#) - demo checksum/mix");
+    let a: i32 = simple_mix(12345);
+    let b: i32 = simple_mix(67890);
+    puts("mix(12345), mix(67890) computed in Z#");
+    return a + b;
 }

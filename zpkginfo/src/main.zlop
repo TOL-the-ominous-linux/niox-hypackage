@@ -1,5 +1,14 @@
 namespace ZPkgInfo;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("zpkginfo (Z#) - niox hypackage info");
+    puts("use: turlz --info <package>");
+    puts("use: turlz -s <query>");
+    puts("repo: TOL-the-ominous-linux/niox-hypackage");
     return 0;
 }

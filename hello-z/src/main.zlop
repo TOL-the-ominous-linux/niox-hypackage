@@ -1,5 +1,11 @@
 namespace HelloZ;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("Hello from Turls Linux (Z# via niox hypackage)!");
     return 0;
 }

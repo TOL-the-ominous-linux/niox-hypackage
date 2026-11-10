@@ -1,5 +1,13 @@
 namespace ZGrep;
 
-fn main() -> i32 {
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("zgrep (Z#) - text search tool");
+    puts("usage: zgrep <pattern> <file>");
+    puts("status: core engine built in Z#; file IO integration pending runtime libs");
     return 0;
 }

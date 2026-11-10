@@ -1,6 +1,20 @@
 namespace ZFetch;
 
-fn main() -> i32 {
-    // lightweight sysinfo stub compiled with Z#
+extern "C" {
+    fn puts(s: str) -> i32;
+}
+
+fn main() -> i32
+{
+    puts("  _____          _     ");
+    puts(" |_   _|   _ _ _| |____");
+    puts("   | || | | | '__| |_  /");
+    puts("   | || |_| | |  | |/ / ");
+    puts("   |_| \__,_|_|  |_/___|");
+    puts("");
+    puts("zfetch - Turls Linux (niox hypackage)");
+    puts("OS:      Turls Linux (Z# userspace)");
+    puts("PkgMgr:  turlz / niox hypackage");
+    puts("Shell:   zsh/bash compatible");
     return 0;
 }
