@@ -1,0 +1,23 @@
+[package]
+name = "zcore"
+version = "0.1.0"
+desc = "Core shared utilities library package for Z# apps"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/lib.zlop"]
+cs = []
+files = ["include/zcore.hint"]
+
+[build]
+zlop_out = "zcore"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

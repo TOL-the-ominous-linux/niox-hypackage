@@ -1,0 +1,23 @@
+[package]
+name = "zbench"
+version = "0.1.0"
+desc = "Micro-benchmark demo app in Z#"
+arch = "x86_64"
+
+[deps]
+niox = ["zcore"]
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = []
+
+[build]
+zlop_out = "zbench"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

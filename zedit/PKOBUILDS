@@ -1,0 +1,23 @@
+[package]
+name = "zedit"
+version = "0.1.0"
+desc = "Minimal editor stub in Z#"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["config/default.conf"]
+
+[build]
+zlop_out = "zedit"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

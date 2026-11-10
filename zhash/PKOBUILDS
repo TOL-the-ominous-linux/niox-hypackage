@@ -1,0 +1,23 @@
+[package]
+name = "zhash"
+version = "0.1.0"
+desc = "File hash utility stub (Z#)"
+arch = "x86_64"
+
+[deps]
+niox = ["zcore"]
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["README.txt"]
+
+[build]
+zlop_out = "zhash"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

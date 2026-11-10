@@ -1,0 +1,11 @@
+namespace ZBench;
+
+fn work(n: i32) -> i32 {
+    let i: i32 = 0;
+    return n;
+}
+
+fn main() -> i32 {
+    let r: i32 = work(1000);
+    return 0;
+}

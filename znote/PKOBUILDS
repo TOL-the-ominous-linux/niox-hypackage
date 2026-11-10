@@ -1,0 +1,23 @@
+[package]
+name = "znote"
+version = "0.1.0"
+desc = "Notes app stub in Z#"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["notes/.keep"]
+
+[build]
+zlop_out = "znote"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

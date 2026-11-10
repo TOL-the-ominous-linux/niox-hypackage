@@ -1,0 +1,23 @@
+[package]
+name = "ztodo"
+version = "0.1.0"
+desc = "Simple todo list core in Z#"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["todo.sample"]
+
+[build]
+zlop_out = "ztodo"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

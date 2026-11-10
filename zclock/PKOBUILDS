@@ -1,0 +1,23 @@
+[package]
+name = "zclock"
+version = "0.1.0"
+desc = "Clock/time display stub in Z#"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = []
+
+[build]
+zlop_out = "zclock"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

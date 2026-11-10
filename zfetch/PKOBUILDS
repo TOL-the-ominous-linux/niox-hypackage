@@ -1,0 +1,23 @@
+[package]
+name = "zfetch"
+version = "0.1.0"
+desc = "System info fetcher stub (Z#)"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["data/logo.txt", "README.txt"]
+
+[build]
+zlop_out = "zfetch"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

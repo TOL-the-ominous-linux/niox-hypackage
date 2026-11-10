@@ -1,0 +1,6 @@
+namespace ZFetch;
+
+fn main() -> i32 {
+    // lightweight sysinfo stub compiled with Z#
+    return 0;
+}

@@ -1,0 +1,6 @@
+namespace ZTodo;
+
+fn main() -> i32 {
+    // todo core placeholder
+    return 0;
+}

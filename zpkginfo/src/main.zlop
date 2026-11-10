@@ -1,0 +1,5 @@
+namespace ZPkgInfo;
+
+fn main() -> i32 {
+    return 0;
+}

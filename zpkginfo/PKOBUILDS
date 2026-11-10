@@ -1,0 +1,23 @@
+[package]
+name = "zpkginfo"
+version = "0.1.0"
+desc = "Package info/query tool for niox hypackage (Z#)"
+arch = "x86_64"
+
+[deps]
+niox = ["zcore"]
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = []
+
+[build]
+zlop_out = "zpkginfo"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

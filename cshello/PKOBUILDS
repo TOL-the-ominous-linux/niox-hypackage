@@ -1,0 +1,23 @@
+[package]
+name = "cshello"
+version = "1.0.0"
+desc = "Hello world in C# packaged via niox hypackage"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = ["mono"]
+
+[source]
+zlop = []
+cs = ["src/Program.cs"]
+files = ["README.txt"]
+
+[build]
+zlop_out = "cshello"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

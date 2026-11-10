@@ -1,0 +1,23 @@
+[package]
+name = "zgrep"
+version = "0.1.0"
+desc = "Text search tool stub in Z#"
+arch = "x86_64"
+
+[deps]
+niox = ["zcore"]
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = []
+
+[build]
+zlop_out = "zgrep"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

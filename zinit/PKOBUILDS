@@ -1,0 +1,23 @@
+[package]
+name = "zinit"
+version = "0.1.0"
+desc = "Init/service helper prototype in Z#"
+arch = "x86_64"
+
+[deps]
+niox = ["zcore"]
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["service/example.service"]
+
+[build]
+zlop_out = "zinit"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

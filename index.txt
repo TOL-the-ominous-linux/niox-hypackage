@@ -1,0 +1,15 @@
+cshello
+hello-z
+zbench
+zcalc
+zclock
+zcore
+zedit
+zfetch
+zgrep
+zhash
+zinit
+znote
+zpkginfo
+zsysmon
+ztodo

@@ -1,0 +1,23 @@
+[package]
+name = "hello-z"
+version = "1.0.0"
+desc = "Hello world in Z# (niox hypackage)"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["README.txt"]
+
+[build]
+zlop_out = "hello-z"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

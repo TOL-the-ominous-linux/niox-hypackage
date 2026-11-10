@@ -1,0 +1,5 @@
+namespace ZGrep;
+
+fn main() -> i32 {
+    return 0;
+}

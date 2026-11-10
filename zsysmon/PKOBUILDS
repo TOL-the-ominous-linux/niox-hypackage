@@ -1,0 +1,23 @@
+[package]
+name = "zsysmon"
+version = "0.1.0"
+desc = "System monitor stub in Z#"
+arch = "x86_64"
+
+[deps]
+niox = ["zcore", "zfetch"]
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = []
+
+[build]
+zlop_out = "zsysmon"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

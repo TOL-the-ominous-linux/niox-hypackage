@@ -1,0 +1,23 @@
+[package]
+name = "zcalc"
+version = "1.0.0"
+desc = "Tiny integer calculator example in Z#"
+arch = "x86_64"
+
+[deps]
+niox = []
+system = []
+
+[source]
+zlop = ["src/main.zlop"]
+cs = []
+files = ["README.txt"]
+
+[build]
+zlop_out = "zcalc"
+zlop_args = []
+commands = []
+
+[install]
+bin = []
+files = []

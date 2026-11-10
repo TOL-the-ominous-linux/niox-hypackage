@@ -1,0 +1,5 @@
+namespace ZHash;
+
+fn main() -> i32 {
+    return 0;
+}
