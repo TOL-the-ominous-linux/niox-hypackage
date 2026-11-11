@@ -52,3 +52,13 @@ but the Z#-native path is preferred.
 ## Repository
 
 Intended home: https://github.com/TOL-the-ominous-linux/niox-hypackage
+
+## Live ISO
+
+The Turls live ISO includes this repository at `/usr/share/niox-hypackage`.
+Boot the live ISO and use `turlz` directly:
+
+```sh
+turlz --niox-path /usr/share/niox-hypackage -s z
+turlz --niox-path /usr/share/niox-hypackage --info zcalc
+```
